@@ -29,6 +29,7 @@
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
   padding-top: 26px;
+  font-size: 18px;
 }
 
 .links {
@@ -54,7 +55,7 @@ hr {
 h1 {
   font-family: 'nobileregular', sans-serif;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 38px;
 }
 
 h2 {
@@ -71,7 +72,7 @@ h2 {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
   text-align: right;
-  font-size: 10px;
+  font-size: 18px;
 }
 
 .logo:hover {
@@ -80,4 +81,23 @@ h2 {
 
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h3 span {
+  color: #acadad;
+  font-family: 'nobileregular', sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+  text-align: left;
+  }
 }
